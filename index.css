@@ -1,0 +1,145 @@
+body{
+    background-color:white ;
+}
+.header{
+    justify-content: end;
+    text-align: right;
+    color:#381664;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+span{
+    font-weight: bold;
+}
+.header,a{
+    color:#381664;
+    text-decoration: none;
+}
+
+#topp span{
+    font-size: 20px;
+}
+#topp{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+h1{
+    justify-content: center;
+    text-align: center;
+    font-size: 120px;
+    color:#381664;
+
+}
+.image{
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+   
+
+}
+#upper-image{
+    width: 1344px;
+    height: 672px;
+   gap: 0px;
+   border-radius: 22px 0px 0px 0px;
+   border: 1px 0px 0px 0px;
+   opacity: 0px;
+
+}
+.image-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    width: Fill (1,344px)px;
+    height: Hug (1,191px)px;
+    gap: 0px;
+    border: 0px 0px 1px 0px;
+    opacity: 0px;
+    margin-top: 60px; 
+    margin-left: 63px;
+}
+.testing img{
+    width: 416px;
+    height: 277px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border-radius: 22px;
+
+}
+h3{
+    color: #381664;
+}
+.testing,p{
+    font-family: Familjen Grotesk;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+     color: #381664!important;
+
+}
+.about{
+    justify-content: center;
+    text-align: center;
+    color: #381664;
+}
+.H1{
+    font-family: Syne;
+    font-size: 64px !important;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+p{
+    font-family: Familjen Grotesk;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.005em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #381664;
+    
+}
+
+.button{
+justify-content: center;
+text-align: center;
+}
+button{
+    background-color: #440A8F;
+    color: white;
+    border-radius: 8px;
+}
+
+.testing2{
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+.lower p{
+     justify-content: end;
+     text-align: right;
+}
+
+.footer p{
+    justify-content: end;
+    text-align: left;
+}
+
+.footer{
+    justify-content: end;
+    text-align: right;
+}
+.back-to-top{
+    background-color: white!important;
+}
